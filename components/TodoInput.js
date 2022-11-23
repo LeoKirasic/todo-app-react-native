@@ -17,7 +17,7 @@ export default function TodoInput(props) {
   };
 
   return (
-    <View style={styles.inputContainer}>
+    <View>
       <TextInput
         style={styles.input}
         value={text}
@@ -41,17 +41,16 @@ export default function TodoInput(props) {
 }
 
 const styles = StyleSheet.create({
-  inputContainer: {},
-
   input: {
     height: 40,
     borderWidth: 1,
   },
   button: {
-    backgroundColor: '#1d4ed8',
+    backgroundColor: '#598507',
     height: 40,
     alignItems: 'center',
     justifyContent: 'center',
+    marginBottom: 10,
   },
   buttonText: {
     color: 'white',
