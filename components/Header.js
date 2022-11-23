@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
 
 export default function Header() {
   return (
@@ -10,12 +11,14 @@ export default function Header() {
 
 const styles = StyleSheet.create({
   header: {
-    flex: 1,
+    width: '100%',
+    marginBottom: 5,
     alignItems: 'center',
-    marginTop: 50,
+    marginTop: 30,
+    backgroundColor: '#075985',
   },
   text: {
-    color: 'black',
+    color: 'white',
     fontWeight: 'bold',
     fontSize: 30,
   },
